@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+:root {
+    /* colors */
+    --clr-main: hsl(257, 40%, 49%);
+    --clr-accent: hsl(300, 69%, 71%);
+    --clr-text: #fff;
+
+    /* typography */
+    --ff-primary: ;
+    --ff-secondary: ;
+
+}
