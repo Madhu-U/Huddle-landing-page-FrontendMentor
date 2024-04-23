@@ -26,4 +26,72 @@ svg {
     /* typography */
     --ff-primary: "Poppins", sans-serif;
     --ff-secondary: "Open Sans", sans-serif;
+    --fw-medium: 400;
+    --fw-bold: 600;
+}
+
+body {
+    background: var(--clr-main) url(/images/bg-mobile.svg) no-repeat;
+    padding: 2rem;
+    color: var(--clr-text);
+    text-align: center;
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-bold);
+}
+
+nav img {
+    max-width: 8.2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    align-items: center;
+    padding-block: 3.5rem;
+}
+
+.page__content p {
+    padding-block: 1rem 1.5rem;
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-medium);
+    line-height: 1.5;
+}
+
+.page__content button {
+    padding: 12px 75px;
+    border-radius: 100px;
+    border: none;
+    color: var(--clr-main);
+    font-family: var(--ff-primary);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fa-brands {
+    border: 1px solid var(--clr-text);
+    border-radius: 100%;
+    padding: 5px;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+@media (min-width: 375px) {
+    body {
+        background: var(--clr-main) url(/images/bg-desktop.svg) no-repeat;
+    }
+}
+
+@media (min-width: 700px) {
+    main {
+        flex-direction: row;
+    }
+
+    footer {
+        justify-content: end;
+    }
 }
