@@ -5,6 +5,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 ### Screenshots
 
 ## Desktop Design
-![Desktop Design](image.png)
+![Desktop Design](./images/desktop-design.png)
 
 ## Mobile Design
+![Mobile Design](./images/mobile-design.png)
